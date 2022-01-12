@@ -4,6 +4,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #9f9f9f;
 }
+header {
+  background: #562eff;
+  width: 1440px;
+  height: 94px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -70,6 +75,41 @@ hr {
   text-decoration: none;
   color: #562eff;
 }
-.course-title {
-  font-size: 20;
+.banner img {
+  width: 224px;
+  height: 104px;
+}
+.container-2 {
+  background-color: #ffff;
+  width: 870px;
+  height: 362px;
+  padding: 30px;
+  margin-top: 21px;
+  border-radius: 5px;
+}
+.courses {
+  display: flex;
+  grid-column-gap: 24px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+p {
+  padding-left: 10px;
+}
+.duration {
+  padding-left: 21px;
+  color: #ff4a60;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  margin-left: 21px;
+  font-size: 14.6913px;
 }
