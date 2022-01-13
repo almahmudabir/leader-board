@@ -162,13 +162,23 @@ p {
 
 @media only screen and (max-width: 688px) {
   .container {
-    width: 100%;
+    /* width: 100%; */
+  }
+  .section-title {
+    padding-left: 26px;
   }
   .players {
-    grid-template-column: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
   }
   .player {
     flex-direction: column;
+    align-items: center;
+  }
+  .top-blogs {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 } ;
